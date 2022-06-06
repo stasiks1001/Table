@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Table</title>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Name List
+      </caption>
+
+      <thead>
+        <tr>
+          <td>FirstName</td>
+          <td>LastName</td>
+          <td>Age</td>
+          <td>Telephone</td>
+          <td>Address-1</td>
+          <td>Address-2</td>
+        </tr>
+      </thead>
+
+      <tbody >
+        <tr>
+          <td rowspan="2">Jil</td>
+          <td rowspan="2">Smith</td>
+          <td rowspan="2">50</td>
+          <td>+49123456789</td>
+          <td rowspan="2">Address-1</td>
+          <td rowspan="2">Address-2</td>
+        </tr>
+
+        <tr>
+          <td>+49123456789</td>
+        </tr>
+
+        <tr>
+          <td>Eve</td>
+          <td>Doe</td>
+          <td>25</td>
+          <td>+49123456789</td>
+          <td colspan="2">Address</td>
+        </tr>
+
+        <tr>
+          <td>San</td>
+          <td>Reno</td>
+          <td>33</td>
+          <td>+49123456789</td>
+          <td colspan="2">Address</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2">Jack</td>
+          <td rowspan="2">Storm</td>
+          <td rowspan="2">31</td>
+          <td>+49123456789</td>
+          <td rowspan="2" colspan="2">Address</td>
+          
+        </tr>
+
+        <tr>
+          <td>+49123456789</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="6" align="center">
+            Copyright &#169; 2022 Stanislav Ivanov
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
